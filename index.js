@@ -171,7 +171,7 @@ listaDeCompras[4] = "papel";
 listaDeCompras[listaDeCompras.length] = "cebola";
 listaDeCompras[1] = "tomate";
 console.log(listaDeCompras);
-listaDeCompras.pop();
+/* listaDeCompras.pop(); */
 
 
 console.log(listaDeCompras);
@@ -180,3 +180,5 @@ console.log(listaDeCompras[1]);
 console.log(listaDeCompras[2]);
 
 console.log(listaDeCompras.length);
+
+listaDeCompras.splice
