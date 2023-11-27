@@ -172,7 +172,9 @@ section.formulario form#form input[type="submit"] {
     margin: 6px auto 6px 0px;
 }
 
-section.formulario h3, section.formulario p {text-align: center;}
+section.formulario h3, section.formulario p {text-align: center;
+
+font-family: Arial, Helvetica, sans-serif;}
 
 footer div.espacamento {
     width: 90%;
@@ -210,3 +212,18 @@ footer .footer-interno .footer-coluna ul li.titulo {
     font-weight: 800;
     color: #363636;
 }
+
+title {
+    align-items: center;
+    color: #fefefe;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only print {
+    
