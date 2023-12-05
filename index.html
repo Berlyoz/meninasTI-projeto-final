@@ -12,16 +12,16 @@
 <body>
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <div class="col-md-3 mb-2 mb-md-0">
-          <a href="logo.png" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
             <svg class="bi" width="40" height="32" role="img" aria-label="Inicialização"><use xlink:href="#bootstrap"></use></svg>
           </a>
         </div>
   
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iniciativas</font></font></a></li>
-          <li><a href="#" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Equipe</font></font></a></li>
-          <li><a href="#" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contato</font></font></a></li>
-          <li><a href="#" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sobre</font></font></a></li>
+          <li><a href="index.html" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Home</font></font></a></li>
+          <li><a href="EscolaEmpresa.html" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Equipe</font></font></a></li>
+          <li><a href="contato.html" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contato</font></font></a></li>
+          <li><a href="sobre.html" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sobre</font></font></a></li>
         </ul>
   
         <div class="col-md-3 text-end">
@@ -31,35 +31,41 @@
       </header>
     <section class="banner">
         <div class="conteudo">
-            <h2>CENTRIA</h2>
+            <h2>CentrIA</h2>
             <p>Programação em escolas Públicas</p>
         </div>
-        <div class="botão">Clique aqui</div>
     </section>
     <section class="sobre container col d-flex flex-row flex-wrap justify-content-evenly" id="sobre">
-        <div class="imagem">
-            <img src="Escola.jpg">
-        </div>     
-        <div class="conteudo">
-            <h2>Scratch é fácil?</h2>
-            <p>
-                Em 2023 temos muitas opções de acesso a sites e portais de formação gratuitos e que podem contribuir significativamente para a aprendizagem em tecnologia. Muitas vezes por falta de informação, famílias e educadores não utilizam estas ferramentas, nossa participação em um espaço educativo busca levar esta contribuição. O portal https://scratch.mit.edu/ é uma ferramenta de acesso a estes conhecimentos básicos em programação e será a ferramenta utilizada. 
 
-            </p>
-        </div>
+        <section class="sobre" id="sobre">
+            <div class="imagem">
+                <img src="Escola.jpg">
+            </div>     
+            <div class="conteudo">
+                <h2>Scratch é fácil?</h2>
+                
+        <p>Em 2023 temos muitas opções de acesso a sites e portais de formação gratuitos e que podem contribuir significativamente para a aprendizagem em tecnologia. Muitas vezes por falta de informação, famílias e educadores não utilizam estas ferramentas, nossa participação em um espaço educativo busca levar esta contribuição. O portal https://scratch.mit.edu/ é uma ferramenta de acesso a estes conhecimentos básicos em programação e será a ferramenta utilizada. 
+            Com encontros semanais com um grupo de estudantes de terceiro e quarto ano do ensino fundamental que participam do projeto de robótica educativa na EMEB Imperatriz Leopoldina, vamos desenvolver o trabalho com acompanhamento dos professores da escola.
+            A ideia é auxiliá-los no processo de acesso e criação de contas utilizando as contas @edu da google que cada criança tem.  A partir daí vamos experimentar o processo de programação em bloco neste site. A ideia é construir um jogo ou outra tarefa juntamente com eles utilizando o dispositivos da escola.
+            Após este trabalho direcionado ao coletivo, eles vão ter o desafio de em pequenos grupos criar um jogo ou um script sozinhos.</p>
+        <p>Acreditamos que com este processo vamos abrir uma entrada para que este grupo de crianças continue explorando e descobrindo saberes e habilidades em tecnologia. Estes saberes poderão ser significativos no desenvolvimento de seus conhecimentos de uma forma ampla Considerando a abrangência das tecnologias digitais na vida cotidiana contemporânea, essa vivência também será elemento de promoção de inclusão digital e  qualidade de vida no desenvolvimento de habilidades nas suas relações com as tecnologias.</p>
+    
+            </div>
+        </section>
     </section>
     <section class="formulario">
-        <h3>Entre em contato</h3>
-        <p>Preencha o formulário abaixo para conversar com a gente</p>
-        <form action="" id="form">
-            <input type="text" placeholder="seu nome" name="nome" id="nome"/>
-            <input type="tel" placeholder="seu telefone" name="telefone" id="telefone" />
-           <!-- <input type="password" placeholder="senha" />
-            <input type="url" placeholder="url" />
-            <input type="datetime" placeholder="data-hora" />
-            -->
-            <input type="submit" value="Enviar" id="enviar" />
-         </form>
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h3>Entre em contato</h3>
+            <form action="" id="form">
+                <input type="text" placeholder="seu nome" name="nome" id="nome"/>
+                <input type="tel" placeholder="seu telefone" name="telefone" id="telefone" />
+               <!-- <input type="password" placeholder="senha" />
+                <input type="url" placeholder="url" />
+                <input type="datetime" placeholder="data-hora" />
+                -->
+                <input type="submit" value="Enviar" id="enviar" />
+             </form>
+          </div>
     </section>
     <footer>
         <div class="espacamento"> &nbsp; </div>
@@ -71,7 +77,7 @@
             <div class="footer-coluna-2 footer-coluna">
                 <ul>
                     <li class="titulo">Redes</li>
-                    <li>Whatsapp - +55 (51) 99**-****</li>
+                    <li>Whatsapp - +55 (51) 9906-6153</li>
                     <li>Intagram - @CentrIA</li>
                     <li>Facebook - @CentrIA</li>
                 </ul>

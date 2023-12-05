@@ -56,13 +56,14 @@ section.banner p {
 section.banner .conteudo {
     background-color: #fefefe8c;
     padding: 12px;
+    border-radius: 12px;
 }
 
 section.banner .botão {
     margin: 12px;
     background-color: #ffffff;
     padding: 12px;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -226,4 +227,6 @@ title {
   }
 
   @media only print {
+    
+  }
     
